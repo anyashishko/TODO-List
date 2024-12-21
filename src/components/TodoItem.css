@@ -1,0 +1,36 @@
+.todo-item {
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.todo-content {
+    margin-bottom: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.todo-title {
+    font-weight: bold;
+}
+
+.todo-description {
+    color: #666;
+}
+
+.note-text {
+    white-space: normal;
+    overflow-wrap: break-word;
+}
